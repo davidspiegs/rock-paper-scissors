@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  h1{
+    font-size: 3rem;
+    color: blue;
+  }
+  
+  #roundDisplay, #winnerMessage{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+  }
+  
+  #playerScore, #computerScore{
+    color: red;
+  }
+  
+  .scoreDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+  }
+  
+  .playerScoreText{
+    margin-bottom:20px;
+  }
+  
+  .choices{
+    margin-bottom: 30px;
+  }
+  
+  .choices button{
+    font-size: 5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: darkslateblue;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+  }
+  
+  .choices button:hover{
+    background-color: hsl(200, 100%, 70%);
+  }
+  
+  .playerDisplay, .computerDisplay{
+    font-size: 2rem;
+    margin: 10px;
+  }
+  
+  #playerDisplayChoice, #computerDisplayChoice{
+    font-size: 1.75rem;
+    color: red;
+  }
+  
+  #resultDisplay{
+    font-size: 2rem;
+    margin: 10px;
+  }
+  
+  .choicesDisplay{
+    display: flex;
+    flex-direction: row;
+  }
